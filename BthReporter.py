@@ -8,6 +8,7 @@ import binascii
 import sdp_helper
 #add sdp_helper to send out the HID descriptors.
 #Continue to practise with Git command.
+#Verify the usage of Git Tag
 
 # reverse from hidkey_to_linuxkey.
 linuxkey_to_hidkey = [

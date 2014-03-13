@@ -1,0 +1,65 @@
+Attribute Identifier : 0x0 - ServiceRecordHandle
+  Integer : 0x10000
+Attribute Identifier : 0x1 - ServiceClassIDList
+  Data Sequence
+    UUID16 : 0x1001 - BrowseGroupDescriptorServiceClassID
+Attribute Identifier : 0x200 - GroupID
+  UUID16 : 0x1002 - PublicBrowseGroup
+
+Attribute Identifier : 0x0 - ServiceRecordHandle
+  Integer : 0x10001
+Attribute Identifier : 0x1 - ServiceClassIDList
+  Data Sequence
+    UUID16 : 0x1124 - HumanInterfaceDeviceService (HID)
+Attribute Identifier : 0x4 - ProtocolDescriptorList
+  Data Sequence
+    Data Sequence
+      UUID16 : 0x0100 - L2CAP
+      Channel/Port (Integer) : 0x11
+    Data Sequence
+      UUID16 : 0x0011 - HIDP
+Attribute Identifier : 0x5 - BrowseGroupList
+  Data Sequence
+    UUID16 : 0x1002 - PublicBrowseGroup
+Attribute Identifier : 0x6 - LanguageBaseAttributeIDList
+  Data Sequence
+    Code ISO639 (Integer) : 0x656e
+    Encoding (Integer) : 0x6a
+    Base Offset (Integer) : 0x100
+Attribute Identifier : 0x9 - BluetoothProfileDescriptorList
+  Data Sequence
+    Data Sequence
+      UUID16 : 0x1124 - HumanInterfaceDeviceService (HID)
+      Version (Integer) : 0x100
+Attribute Identifier : 0xd - AdditionalProtocolDescriptorLists
+  Data Sequence
+    Data Sequence
+      Data Sequence
+        UUID16 : 0x0100 - L2CAP
+        Integer : 0x13
+      Data Sequence
+        UUID16 : 0x0011 - HIDP
+Attribute Identifier : 0x100
+  Data : 48 75 6d 61 6e 20 49 6e 74 65 72 66 61 63 65 20 44 65 76 69 63 65 00
+Attribute Identifier : 0x101
+  Data : 48 75 6d 61 6e 20 49 6e 74 65 72 66 61 63 65 20 44 65 76 69 63 65 00
+Attribute Identifier : 0x102
+  Data : 52 44 41 20 4d 69 63 72 6f 65 6c 65 63 74 72 6f 6e 69 63 73 00
+Attribute Identifier : 0x200 - DeviceReleaseNum
+  Integer : 0x100
+Attribute Identifier : 0x201 - ParserVersion
+  Integer : 0x111
+Attribute Identifier : 0x202 - DeviceSubclass
+  Integer : 0xc0
+Attribute Identifier : 0x203 - CountryCode
+  Integer : 0x21
+Attribute Identifier : 0x204 - VirtualCable
+  Integer : 0x1
+Attribute Identifier : 0x205 - ReconnectInitiate
+  Integer : 0x1
+Attribute Identifier : 0x206 - DescriptorList
+  Data Sequence
+    Data Sequence
+      Integer : 0x22
+      Data : 05 01 09 06 a1 01 85 01 75 01 95 08 05 07 19 e0 29 e7 15 00 25 01 81 02 75 01 95 08 81 01 75 08 95 01 91 03 95 06 75 08 15 00 26 ff 00 05 07 19 00 29 ff 81 00 c0 05 01 09 02 a1 01 85 02 09 01 a1 00 05 09 19 01 29 08 15 00 25 01 95 08 75 01 81 02 05 01 09 30 09 31 09 38 15 81 25 7f 75 08 95 03 81 06 05 0c 0a 38 02 75 08 95 01 15 81 25 7f 81 06 c0 c0 00
+
